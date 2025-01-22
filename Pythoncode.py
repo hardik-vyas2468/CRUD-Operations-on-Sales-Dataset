@@ -54,3 +54,20 @@ print("\nDeleting record with id 2:")
 delete_record({"id": 2})
 print("\nDataset after deletion:")
 print(dataset)
+
+Output 
+
+Reading records with age 25:
+{'id': 2, 'name': 'Jane Doe', 'age': 25}
+
+Updating record with id 1:
+Record updated successfully.
+
+Dataset after update:
+[{'id': 1, 'name': 'John Doe', 'age': 31}, {'id': 2, 'name': 'Jane Doe', 'age': 25}]
+
+Deleting record with id 2:
+Record(s) deleted successfully.
+
+Dataset after deletion:
+[{'id': 1, 'name': 'John Doe', 'age': 31}]
